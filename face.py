@@ -26,9 +26,11 @@ while True:
             # See if the face is a match for the known face(s)
             match = face_recognition.compare_faces([Pic_face_encoding], face_encoding)
             name = "Unknown"
+            print("False")
 
             if match[0]:
                 name = "Amit"
+                print("True")
 
 
             face_names.append(name)
