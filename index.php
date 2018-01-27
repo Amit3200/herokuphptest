@@ -2,6 +2,6 @@
 $rr=exec('python wer.py');
 echo "This is the first application\n";
 echo $rr;
-exec('FaceRecognition1.py');
+exec('python FaceRecognition1.py');
 echo "This is the first application\n";
 ?>
