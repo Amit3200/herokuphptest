@@ -5,4 +5,6 @@ echo $rr;
 $ew=shell_exec('python face.py');
 echo "\nThis is the first application\n";
 echo "\n$ew";
+echo "\nThis is the first application\n";
+$ew=shell_exec('python Speech.py');
 ?>
