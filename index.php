@@ -2,7 +2,7 @@
 echo "This is the first application";
 $r=exec("python wer.py");
 echo '<br>';
-$k=exec("python face.py");
+$k=exec("python OpenCamera.py");
 echo $k;
 echo ">";
 echo $r;
