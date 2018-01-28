@@ -14,6 +14,6 @@ while rval:
     key = cv2.waitKey(20)
     if key == 27: # exit on ESC
         break
-
+print("Working")
 cv2.destroyWindow("preview")
 vc.release()
