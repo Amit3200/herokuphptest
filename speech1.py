@@ -1,7 +1,7 @@
 from flask import *
 import speech_recognition as sr
 import os
-import pyaudio
+#import pyaudio
 app=Flask(__name__)
 @app.route("/")
 def call():
