@@ -1,10 +1,10 @@
 import speech_recognition as sr
-import os
-f=open("IntroSpeech.vbs","w+")
-k="Dim sapi \nSet sapi=Createobject(\"sapi.spvoice\") \nsapi.Speak "+'"'+"Listening"+'"'
-f.write(k)
-f.close()
-os.system("IntroSpeech.vbs")
+#import os
+#f=open("IntroSpeech.vbs","w+")
+#k="Dim sapi \nSet sapi=Createobject(\"sapi.spvoice\") \nsapi.Speak "+'"'+"Listening"+'"'
+#f.write(k)
+#f.close()
+#os.system("IntroSpeech.vbs")
 print("Try")
 r=sr.Recognizer()
 print(r)
@@ -23,8 +23,8 @@ except sr.RequestError as e:
                             print("Could not request results from Google  Speech Recognition service; {0}".format(e))
 print("Gand MARA")
 print(text1)
-f=open("IntroSpeech.vbs","w+")
-k="Dim sapi \nSet sapi=Createobject(\"sapi.spvoice\") \nsapi.Speak "+'"'+text1+'"'
-f.write(k)
-f.close()
-os.system("IntroSpeech.vbs")
+#f=open("IntroSpeech.vbs","w+")
+#k="Dim sapi \nSet sapi=Createobject(\"sapi.spvoice\") \nsapi.Speak "+'"'+text1+'"'
+#f.write(k)
+#f.close()
+#os.system("IntroSpeech.vbs")
